@@ -4,7 +4,7 @@ Return string representation of a float
 """
 
 
-def to_str(n: float)-> str:
+def to_str(n: float) -> str:
     """
     Returns a string
     """

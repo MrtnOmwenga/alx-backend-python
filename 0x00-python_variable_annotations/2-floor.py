@@ -4,7 +4,7 @@ Floors a float
 """
 
 
-def floor(n: float)-> int:
+def floor(n: float) -> int:
     """
     Returns integer
     """
