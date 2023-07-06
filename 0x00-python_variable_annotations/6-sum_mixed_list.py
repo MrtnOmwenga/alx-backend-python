@@ -5,7 +5,7 @@ Sum elements of a list
 """
 
 
-def sum_mixed_list(mxd_lst: List[Union[int, float]])-> float:
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     """
     Returns a float
     """
