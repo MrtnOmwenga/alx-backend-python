@@ -3,7 +3,7 @@
 Unit tests
 """
 import unittest
-from utils import access_nested_map
+from utils import access_nested_map, get_json
 from parameterized import parameterized
 from typing import Dict, Tuple, Union
 
@@ -34,3 +34,7 @@ class TestAccessNestedMap(unittest.TestCase):
         """ Test that assert equal raises KeyError """
         with self.assertRaises(exception):
             access_nested_map(nested_map, path)
+
+
+class TestGetJson(unittest.TestCase):
+    """ Contains tests for utils.get_json """
